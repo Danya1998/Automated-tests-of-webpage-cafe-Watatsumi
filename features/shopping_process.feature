@@ -13,7 +13,7 @@ Feature: Check the ability of buying some food for register user on website Wata
     And Verify that I registered on website with username "test10"
     And Go to pizza page, add "Пицца Украинская" to shopping cart and check successful message
 
-  Scenario: Check that roll is added to shopping cart
+  Scenario: Check that roll is added to cart
     Given website "https://watatsumi.com.ua/"
     Then I go to user authorization page
     And Login with username "test10@gmail.com" and password "daniel1988170"
